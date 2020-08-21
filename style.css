@@ -1,0 +1,91 @@
+
+
+.header {
+  background-image: url("http://myfirstapp-syllabus.greenfox.academy/week01/assets/first-website-header.png");
+  background-size: 800px 250px;
+  width: 800px;
+  height: 250px;
+  margin: 10px 100px;
+  border-style: solid none none none;
+  border-color: black;
+  border-width: 5px;
+}
+.text_header_h2 {
+  text-align: center;
+  margin: 150px 250px 0px 0px;
+  font-family: "Abril Fatface";
+  color: #222;
+}
+
+.text_header_h1 {
+  text-align: center;
+  margin: 0px 130px 0px 0px;
+  font-family: "Abril Fatface";
+  color: #222;
+}
+
+.main_body {
+  margin: 10px 200px 0px; 
+}
+
+.p {
+  font-family: "Josefin Sans";
+  width: 500px;
+}
+
+ul {
+  font-family: "Josefin Sans";
+  list-style-type: square;
+}
+
+blockquote::before {
+  content: '”';
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: -25px;
+  left: 0px;
+  margin: 0px;
+  }
+
+blockquote {
+  display: block;
+  position: relative;
+  background: #222;
+  color: white;
+  width: 300px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.quote {
+  font-family: "Abril Fatface";
+  color: white;
+}
+
+.h2 {
+  font-family: "Abril Fatface";
+  color: #222;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: "Merriweather";
+  color: #222;
+  font-size: 20px;
+}
+
+h4 {
+  font-family: "Merriweather";
+  color: #222;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.personal {
+  margin: 10px 200px 0px;
+  border-style: solid none none none;
+  border-color: black;
+  border-width: 5px;
+}
